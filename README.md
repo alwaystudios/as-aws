@@ -32,17 +32,17 @@ Simple S3Client
 ## insertDynamoDbItem
 
 ```
-  await insertDynamoDbItem(client)(item, tableName)
+  await insertDynamoDbItem(docClient)(item, tableName)
 ```
 
 ## getDynamoDbItem
 
 ```
-  await getDynamoDbItem(client)(query)
+  await getDynamoDbItem(docClient)(query)
 ```
 
 ## queryDynamoDb
 
 ```
-  await queryDynamoDb(client)(query)
+  await queryDynamoDb(docClient)(query)
 ```
