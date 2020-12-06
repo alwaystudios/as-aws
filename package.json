@@ -1,7 +1,7 @@
 {
   "name": "@alwaystudios/as-aws",
   "author": "Alwaystudios Ltd.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "engines": {
     "node": ">=10"
@@ -54,6 +54,6 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "@alwaystudios/as-utils": "^1.0.6"
+    "@alwaystudios/as-utils": "^1.0.12"
   }
 }
